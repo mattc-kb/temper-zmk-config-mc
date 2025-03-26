@@ -22,7 +22,7 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - [⌘, num, RET, SPACE, sym, LAL]
+  - [⌘, num, RET, SPACE, sym, ⎇]
   sym:
   - - ↹
     - Q

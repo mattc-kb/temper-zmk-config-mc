@@ -218,8 +218,8 @@ path {
 </g>
 <g transform="translate(533, 235) rotate(-15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<a href="#nav">
-<text x="0" y="0" class="key tap layer-activator">nav</text>
+<a href="#func">
+<text x="0" y="0" class="key tap layer-activator">func</text>
 </a></g>
 <g transform="translate(599, 228)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -229,8 +229,8 @@ path {
 </g>
 </g>
 </g>
-<g transform="translate(30, 354)" class="layer-game">
-<text x="0" y="28" class="label" id="game">game:</text>
+<g transform="translate(30, 354)" class="layer-sym">
+<text x="0" y="28" class="label" id="sym">sym:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -532,8 +532,8 @@ path {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1063)" class="layer-nav">
-<text x="0" y="28" class="label" id="nav">nav:</text>
+<g transform="translate(30, 1063)" class="layer-func">
+<text x="0" y="28" class="label" id="func">func:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
@@ -685,13 +685,13 @@ path {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1417)" class="layer-fun">
-<text x="0" y="28" class="label" id="fun">fun:</text>
+<g transform="translate(30, 1417)" class="layer-mouse">
+<text x="0" y="28" class="label" id="mouse">mouse:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<a href="#game">
-<text x="0" y="0" class="key tap layer-activator">game</text>
+<a href="#sym">
+<text x="0" y="0" class="key tap layer-activator">sym</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(89, 48)" class="key keypos-1">

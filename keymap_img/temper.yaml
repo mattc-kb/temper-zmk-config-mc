@@ -22,44 +22,35 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - [⌘, num, RET, SPACE, sym, ⎇]
+  - [⌘, sym, RET, SPACE, num, ⎇]
   sym:
-  - - ↹
-    - Q
-    - W
-    - E
-    - R
+  - ['!', '@', '#', $, '%', ^, '&', '*', (, )]
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⇧
-    - A
-    - S
-    - D
-    - F
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⌃
-    - Z
-    - X
-    - C
-    - V
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ESC
+    - {t: Sft+', s: Sft+"}
+    - _
+    - '|'
+    - \
+    - {t: '[', s: '{'}
+    - {t: ']', s: '}'}
+  - - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+    - +
+    - {t: '-', s: _}
+    - {t: '=', s: +}
+    - '{'
+    - '}'
+  - - ⌘
+    - {type: held}
     - {t: ▽, type: trans}
     - SPACE
     - {t: ▽, type: trans}
-    - {type: held}
-    - {t: ▽, type: trans}
+    - ⎇
   num:
   - - '~'
     - '@'
@@ -83,10 +74,10 @@ layers:
     - '3'
     - {t: '=', s: +}
   - - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '0'
-    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
   func:
   - - {t: ▽, type: trans}

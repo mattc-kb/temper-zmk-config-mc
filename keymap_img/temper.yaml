@@ -26,9 +26,9 @@ layers:
     - num
     - {t: ⇧, s: ⇪}
     - SPACE
-    - nav
+    - func
     - {t: default, h: toggle}
-  game:
+  sym:
   - - ↹
     - Q
     - W
@@ -93,7 +93,7 @@ layers:
     - '0'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  nav:
+  func:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -130,8 +130,8 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-  fun:
-  - - {t: game, h: toggle}
+  mouse:
+  - - {t: sym, h: toggle}
     - MUTE
     - VOL DN
     - VOL UP

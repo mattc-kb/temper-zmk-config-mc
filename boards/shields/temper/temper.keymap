@@ -19,6 +19,17 @@
 
 # define ______ &trans
 
+// Mouse Emulation
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 900  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
+
+&mmv {
+    x-input-code = <INPUT_REL_X>;
+    y-input-code = <INPUT_REL_Y>;
+    time-to-max-speed-ms = <400>;
+    acceleration-exponent = <2>;
+};
+
 / {
     behaviors {
         bspc_del: backspace_delete {

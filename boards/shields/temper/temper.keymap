@@ -71,6 +71,82 @@
             mods = <(MOD_LSFT)>;
         };
     };
+
+    combos {
+        compatible = "zmk,combos";
+
+        lshift_combo {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <14 15>;
+        };
+
+        rshift_combo {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <21 20>;
+        };
+
+        Enter_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <22 21 20>;
+        };
+
+        backspace_combo {
+            bindings = <&bspc_del>;
+            key-positions = <9 10>;
+        };
+
+        lctrl_combo {
+            bindings = <&kp LCTRL>;
+            key-positions = <13 14>;
+        };
+
+        rctrl_combo {
+            bindings = <&kp LCTRL>;
+            key-positions = <21 22>;
+        };
+
+        tab_combo {
+            bindings = <&kp TAB>;
+            key-positions = <2 3>;
+        };
+
+        esc_combo {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+        };
+
+        Apostrophe {
+            bindings = <&kp SQT>;
+            key-positions = <7 8>;
+        };
+
+        Del-combo {
+            bindings = <&bspc_del>;
+            key-positions = <8 9>;
+        };
+
+        Delete {
+            bindings = <&kp DEL>;
+            key-positions = <8 9 10>;
+        };
+
+        low_apostrophe {
+            bindings = <&kp APOS>;
+            key-positions = <34 33>;
+        };
+
+        LeftDel {
+            bindings = <&kp DELETE>;
+            key-positions = <1 2 3>;
+        };
+
+        clearBTprofile {
+            bindings = <&bt BT_CLR>;
+            key-positions = <29 28 27>;
+
+        };
+    };
+
         keymap {
                 compatible = "zmk,keymap";
 

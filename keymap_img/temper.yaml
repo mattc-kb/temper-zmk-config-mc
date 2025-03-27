@@ -64,7 +64,7 @@ layers:
     - ↑
     - →
   - - '&bootloader'
-    - ''
+    - '&sys_reset'
     - {t: mouse, h: toggle}
     - {t: func, h: toggle}
     - ''
@@ -110,8 +110,18 @@ layers:
   mouse:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - '&mmv MOVE_UP'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - '&mmv MOVE_LEFT'
+    - '&mmv MOVE_DOWN'
+    - '&mmv MOVE_RIGHT'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -129,17 +139,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {t: mouse, h: toggle}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}

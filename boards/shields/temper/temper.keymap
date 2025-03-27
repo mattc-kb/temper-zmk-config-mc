@@ -28,48 +28,6 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RSFT)>;
         };
-        super_bspc: super_backspace {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&kp LA(BACKSPACE)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        smart_shft: smart_shift {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LSHFT>, <&caps_word>;
-            mods = <(MOD_LSFT)>;
-        };
-        comma_semi: comma_semi {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp SEMI>;
-            mods = <(MOD_LSFT)>;
-        };
-        dot_colon: dot_colon {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp COLON>;
-            mods = <(MOD_LSFT)>;
-        };
-        qmrk_excl: qmrk_excl {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp QMARK>, <&kp EXCL>;
-            mods = <(MOD_LSFT)>;
-        };
-        slh_morph: slh_morph {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp FSLH>, <&kp BSLH>;
-            mods = <(MOD_LSFT)>;
-        };
-        amps_morph: amps_morph {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp AMPS>, <&kp PIPE>;
-            mods = <(MOD_LSFT)>;
-        };
     };
 
     combos {
@@ -77,17 +35,17 @@
 
         lshift_combo {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <14 15>;
+            key-positions = <11 12>;
         };
 
         rshift_combo {
             bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <21 20>;
+            key-positions = <17 18>;
         };
 
         Enter_combo {
             bindings = <&kp ENTER>;
-            key-positions = <22 21 20>;
+            key-positions = <17 18 19>;
         };
 
         backspace_combo {
@@ -97,12 +55,12 @@
 
         lctrl_combo {
             bindings = <&kp LCTRL>;
-            key-positions = <13 14>;
+            key-positions = <10 11>;
         };
 
         rctrl_combo {
             bindings = <&kp LCTRL>;
-            key-positions = <21 22>;
+            key-positions = <18 19>;
         };
 
         tab_combo {
@@ -132,17 +90,17 @@
 
         low_apostrophe {
             bindings = <&kp APOS>;
-            key-positions = <34 33>;
+            key-positions = <28 29>;
         };
 
         LeftDel {
             bindings = <&kp DELETE>;
-            key-positions = <1 2 3>;
+            key-positions = <0 1 2>;
         };
 
         clearBTprofile {
             bindings = <&bt BT_CLR>;
-            key-positions = <29 28 27>;
+            key-positions = <22 23 24>;
 
         };
     };

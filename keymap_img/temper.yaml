@@ -63,7 +63,7 @@ layers:
     - ↓
     - ↑
     - →
-  - - {t: ▽, type: trans}
+  - - '&bootloader'
     - ''
     - {t: mouse, h: toggle}
     - {t: func, h: toggle}
@@ -108,33 +108,42 @@ layers:
     - '0'
     - .
   mouse:
-  - [B, '2', '3', '4', '5', '6', '7', '8', '9', '0']
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: Sft+', s: Sft+"}
-    - ''
-    - ←
-    - ↓
-    - ↑
-    - →
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - ''
-    - {t: mouse, h: toggle}
-    - {t: func, h: toggle}
-    - ''
-    - +
-    - {t: '-', s: _}
-    - {t: '=', s: +}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - ⌘
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - SPACE
     - {t: ▽, type: trans}
-    - ⎇
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
 combos:
 - p: [11, 12]
   k: LEFT SHIFT

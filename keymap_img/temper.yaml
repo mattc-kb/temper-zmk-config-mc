@@ -61,7 +61,7 @@ layers:
     - ''
     - ←
     - ↓
-    - UP ARROW
+    - ↑
     - →
   - - {t: ▽, type: trans}
     - ''

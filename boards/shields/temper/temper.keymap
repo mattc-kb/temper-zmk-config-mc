@@ -150,7 +150,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6        &kp N7        &kp N8        &kp N9       &kp N0   
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &trans        &trans        &trans        &trans     &kp LS(APOS)         &none        &kp LEFT      &kp DOWN    &kp UP         &kp RIGHT 
+    &mmv MOVE_UP      &trans        &trans        &trans     &kp LS(APOS)         &none        &kp LEFT      &kp DOWN    &kp UP         &kp RIGHT 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      &bootloader   &sys_reset     &tog MOUSE     &tog FUNC      &none            &kp PLUS     &kp MINUS      &kp EQUAL      &trans       &trans 
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
@@ -175,10 +175,10 @@
 
                 mouse_layer {
                         bindings = <
-                        &none           &none           &mmv MOVE_UP    &none            &msc SCRL_UP      &none   &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &none
-                        &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &none   &mkp LCLK       &msc SCRL_DOWN  &mkp RCLK        &none
-                        &msc SCRL_DOWN  &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &none             &none   &none           &none           &none            &none 
-                                                                &trans          &tog MOUSE       &trans            &trans  &trans          &trans
+                        &none   &none           &mmv MOVE_UP    &none            &none    &none   &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &none
+                        &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none    &none   &mkp LCLK       &msc SCRL_DOWN  &mkp RCLK        &none
+                        &none   &none           &none           &none            &none    &none   &none           &none           &none            &none 
+                                                &trans          &tog MOUSE       &trans   &trans  &trans          &trans
                         >;
                 };
         };

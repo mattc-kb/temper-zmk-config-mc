@@ -53,7 +53,7 @@ layers:
     - ⎇
   num:
   - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
-  - - {t: ▽, type: trans}
+  - - '&mmv MOVE_UP'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -108,9 +108,9 @@ layers:
     - '0'
     - .
   mouse:
-  - ['', '', '&mmv MOVE_UP', '', '&msc SCRL_UP', '', '&msc SCRL_LEFT', '&msc SCRL_UP', '&msc SCRL_RIGHT', '']
-  - ['&msc SCRL_UP', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '&msc SCRL_DOWN', '', '&mkp LCLK', '&msc SCRL_DOWN', '&mkp RCLK', '']
-  - ['&msc SCRL_DOWN', '&msc SCRL_LEFT', '', '&msc SCRL_RIGHT', '', '', '', '', '', '']
+  - ['', '', '&mmv MOVE_UP', '', '', '', '&msc SCRL_LEFT', '&msc SCRL_UP', '&msc SCRL_RIGHT', '']
+  - ['', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '', '', '&mkp LCLK', '&msc SCRL_DOWN', '&mkp RCLK', '']
+  - ['', '', '', '', '', '', '', '', '', '']
   - - {t: ▽, type: trans}
     - {t: mouse, h: toggle}
     - {t: ▽, type: trans}

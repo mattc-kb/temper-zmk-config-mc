@@ -107,27 +107,27 @@
 
         tab_combo {
             bindings = <&kp TAB>;
-            key-positions = <2 3>;
+            key-positions = <1 2>;
         };
 
         esc_combo {
             bindings = <&kp ESC>;
-            key-positions = <1 2>;
+            key-positions = <0 1>;
         };
 
         Apostrophe {
             bindings = <&kp SQT>;
-            key-positions = <7 8>;
+            key-positions = <6 7>;
         };
 
         Del-combo {
             bindings = <&bspc_del>;
-            key-positions = <8 9>;
+            key-positions = <7 8>;
         };
 
         Delete {
             bindings = <&kp DEL>;
-            key-positions = <8 9 10>;
+            key-positions = <7 8 9>;
         };
 
         low_apostrophe {

@@ -144,3 +144,32 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+combos:
+- p: [14, 15]
+  k: LEFT SHIFT
+- p: [21, 20]
+  k: RIGHT SHIFT
+- p: [22, 21, 20]
+  k: ENTER
+- p: [9, 10]
+  k: {t: ⌫, s: ⌦}
+- p: [13, 14]
+  k: ⌃
+- p: [21, 22]
+  k: ⌃
+- p: [2, 3]
+  k: ↹
+- p: [1, 2]
+  k: ESC
+- p: [7, 8]
+  k: ''''
+- p: [8, 9]
+  k: {t: ⌫, s: ⌦}
+- p: [8, 9, 10]
+  k: DEL
+- p: [34, 33]
+  k: {t: '''', s: '"'}
+- p: [1, 2, 3]
+  k: DELETE
+- p: [29, 28, 27]
+  k: BT CLR
